@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="Estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CRUD PHP,HTML,CSS Y JS">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:600&display=swap" rel="stylesheet">
+    <title>CRUD PHP</title>
+</head>
+<body>
+    <header class="header" id="header">
+        
+          <nav class="menu">
+            <ol>
+              <li>
+                <a class="link" href="#header">CRUD PHP Y MSQL</a>
+              </li>
+            </ol>
+          </nav>
+      </header>
+    <br/>
+            <form onsubmit="event.preventDefault();onSubmit();" autocomplete="off">
+              <div class="tablita">
+                <table class="tabla" id="tabla">
+                  <thead>
+                    <tr> 
+                      <th>Nombre</th> 
+                      <th>Apellido</th>
+                      <th>País</th>
+                      <th>Opciones</th>
+                    </tr>
+                  </thead>
+                    <tbody>
+      
+                    </tbody>
+                </table>
+              </div>
+              <br/>
+              <br/>
+              <div class="caja">
+                <label for="nom">Nombre</label> <input type="text" id="nom" placeholder="Escriba aqui" required>
+                <label for="ape">Apellido</label> <input type="text" id="ape" placeholder="Escriba aqui" required>
+                <label for="pais">País</label> <input type="text" id="pais" placeholder="Escriba aqui" required>
+              </div>
+              <br/>
+              <input class="submit" type="submit" value="Crear">
+              </form>
+        <br/>
+        <br/>
+        </div>
+</body>
+<script type="text/javascript" src="Script.js"></script>
+</html>
